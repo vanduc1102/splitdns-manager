@@ -1,4 +1,0 @@
-module SplitDNSCore {
-header "SplitDNSCore-Swift.h"
-export *
-}

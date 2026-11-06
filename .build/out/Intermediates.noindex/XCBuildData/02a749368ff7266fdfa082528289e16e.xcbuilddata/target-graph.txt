@@ -1,4 +1,0 @@
-Target dependency graph (2 targets)
-Target 'SplitDNSManager-product' in project 'SplitDNSManager'
-➜ Explicit dependency on target 'SplitDNSCore' in project 'SplitDNSManager'
-Target 'SplitDNSCore' in project 'SplitDNSManager' (no dependencies)
