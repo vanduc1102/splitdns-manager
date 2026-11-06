@@ -2,6 +2,16 @@
 
 A small native macOS app for managing **split DNS**: it lists, adds, edits and removes the files in `/etc/resolver`, so lookups for one domain (say `corp.example.com`) go to a specific name server while everything else keeps using your normal DNS.
 
+## Screenshots
+
+The main window shows configured resolvers and their current status:
+
+![SplitDNS Manager main window showing a resolver and its active status](docs/screenshots/1-main.jpg)
+
+Add or edit a resolver with the domain, name servers, optional port, and a preview of the resolver file:
+
+![Resolver editor showing the domain, name server, port, and file preview](docs/screenshots/2-edit-entry.jpg)
+
 It is a GUI for the usual shell helpers:
 
 | Shell | App |
