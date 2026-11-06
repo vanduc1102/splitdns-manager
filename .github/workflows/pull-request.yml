@@ -1,0 +1,65 @@
+name: Verify PR
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+env:
+  # Pinned by digest. The image also provides the shellcheck used below.
+  # Dependabot cannot see this reference, so bump it by hand (as with the swift image below).
+  ACTIONLINT_IMAGE: rhysd/actionlint:1.7.12@sha256:b1934ee5f1c509618f2508e6eb47ee0d3520686341fec936f3b79331f9315667
+
+jobs:
+  swift-format:
+    name: Swift format
+    runs-on: ubuntu-latest
+    container: swift:6.4-noble
+    timeout-minutes: 15
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Check the formatting
+        run: swift format lint --strict --recursive Package.swift Sources Tests Scripts/generate-icon.swift
+
+  shell-scripts:
+    name: Shell scripts
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Run shellcheck
+        run: >-
+          docker run --rm --volume "$PWD:/repo" --workdir /repo --entrypoint shellcheck
+          "$ACTIONLINT_IMAGE" --severity=style Scripts/*.sh
+
+  workflows:
+    name: Workflows
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Run actionlint
+        run: docker run --rm --volume "$PWD:/repo" --workdir /repo "$ACTIONLINT_IMAGE" -color
+
+  # No `secrets: inherit` here, so pull requests (forks included) never see the signing secrets.
+  build:
+    name: Build
+    uses: ./.github/workflows/build.yml

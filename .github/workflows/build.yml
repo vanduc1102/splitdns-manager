@@ -1,0 +1,175 @@
+name: Build
+
+# Tests and packages the app. It runs on its own for pushes to main and manual runs, and is reused by
+# pull-request.yml (verification only) and release.yml (signed and notarized when the secrets exist).
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Version to stamp on the app, e.g. 1.2.3 (default 0.0.0-dev.<run number>)
+        type: string
+        default: ""
+      release:
+        description: Sign with the Developer ID certificate and notarize (needs the signing secrets)
+        type: boolean
+        default: false
+  workflow_call:
+    inputs:
+      version:
+        description: Version to stamp on the app, e.g. 1.2.3 (default 0.0.0-dev.<run number>)
+        type: string
+        default: ""
+      release:
+        description: Sign with the Developer ID certificate and notarize (needs the signing secrets)
+        type: boolean
+        default: false
+    secrets:
+      MACOS_CERTIFICATE_P12_BASE64:
+        description: Base64 of the exported "Developer ID Application" certificate (.p12)
+        required: false
+      MACOS_CERTIFICATE_PASSWORD:
+        description: Password of that .p12 file
+        required: false
+      NOTARY_APPLE_ID:
+        description: Apple ID used for notarization
+        required: false
+      NOTARY_TEAM_ID:
+        description: Ten character Apple Developer team ID
+        required: false
+      NOTARY_PASSWORD:
+        description: App-specific password of that Apple ID
+        required: false
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Build, test and package
+    runs-on: macos-26
+    timeout-minutes: 60
+    env:
+      VERSION: ${{ inputs.version != '' && inputs.version || format('0.0.0-dev.{0}', github.run_number) }}
+      BUILD_NUMBER: ${{ github.run_number }}
+      # Secrets cannot be tested in `if:`, so the steps below test these flags instead.
+      CAN_SIGN: ${{ inputs.release && secrets.MACOS_CERTIFICATE_P12_BASE64 != '' && secrets.MACOS_CERTIFICATE_PASSWORD != '' }}
+      CAN_NOTARIZE: ${{ inputs.release && secrets.MACOS_CERTIFICATE_P12_BASE64 != '' && secrets.MACOS_CERTIFICATE_PASSWORD != '' && secrets.NOTARY_APPLE_ID != '' && secrets.NOTARY_TEAM_ID != '' && secrets.NOTARY_PASSWORD != '' }}
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Show the toolchain
+        run: |
+          sw_vers
+          xcodebuild -version
+          swift --version
+
+      - name: Run the tests
+        run: swift test
+
+      - name: Warn that the release will not be notarized
+        if: inputs.release && env.CAN_NOTARIZE != 'true'
+        run: >-
+          echo "::warning title=Release without notarization::The signing or notarization secrets are
+          missing, so this build is not notarized and Gatekeeper will block it until it is approved by hand."
+
+      - name: Import the signing certificate
+        if: env.CAN_SIGN == 'true'
+        env:
+          CERTIFICATE_P12_BASE64: ${{ secrets.MACOS_CERTIFICATE_P12_BASE64 }}
+          CERTIFICATE_PASSWORD: ${{ secrets.MACOS_CERTIFICATE_PASSWORD }}
+        run: |
+          set -euo pipefail
+          keychain="$RUNNER_TEMP/signing.keychain-db"
+          certificate="$RUNNER_TEMP/certificate.p12"
+          keychain_password="$(uuidgen)"
+          # Recorded first so the cleanup step still finds the keychain if a later command fails.
+          echo "SIGNING_KEYCHAIN=$keychain" >> "$GITHUB_ENV"
+
+          echo "$CERTIFICATE_P12_BASE64" | base64 --decode > "$certificate"
+          security create-keychain -p "$keychain_password" "$keychain"
+          # Stay unlocked for six hours: notarization waits can outlast the default timeout.
+          security set-keychain-settings -lut 21600 "$keychain"
+          security unlock-keychain -p "$keychain_password" "$keychain"
+          security import "$certificate" -k "$keychain" -P "$CERTIFICATE_PASSWORD" -T /usr/bin/codesign
+          security set-key-partition-list -S apple-tool:,apple: -s -k "$keychain_password" "$keychain" > /dev/null
+          rm -f "$certificate"
+
+          # Search the temporary keychain first, then the ones that were already configured.
+          existing="$(security list-keychains -d user | tr -d '"')"
+          # shellcheck disable=SC2086 # the runner's keychain paths contain no spaces
+          security list-keychains -d user -s "$keychain" $existing
+
+          # awk reads to the end: exiting early could kill `security` with SIGPIPE and trip pipefail.
+          identity="$(security find-identity -v -p codesigning "$keychain" | awk -F'"' '/Developer ID Application/ && !found { print $2; found = 1 }')"
+          if [ -z "$identity" ]; then
+            echo "::error::The certificate holds no valid 'Developer ID Application' identity"
+            security find-identity -p codesigning "$keychain"
+            exit 1
+          fi
+          echo "CODESIGN_IDENTITY=$identity" >> "$GITHUB_ENV"
+
+      - name: Package the app
+        run: Scripts/package-app.sh
+
+      - name: Notarize the app
+        if: env.CAN_NOTARIZE == 'true'
+        env:
+          NOTARY_APPLE_ID: ${{ secrets.NOTARY_APPLE_ID }}
+          NOTARY_TEAM_ID: ${{ secrets.NOTARY_TEAM_ID }}
+          NOTARY_PASSWORD: ${{ secrets.NOTARY_PASSWORD }}
+        run: Scripts/notarize.sh "dist/SplitDNS Manager.app"
+
+      # The app is notarized first so that the disk image and the archive both hold the stapled app.
+      - name: Package the disk image and the archive
+        run: Scripts/package-dmg.sh
+
+      - name: Notarize the disk image
+        if: env.CAN_NOTARIZE == 'true'
+        env:
+          NOTARY_APPLE_ID: ${{ secrets.NOTARY_APPLE_ID }}
+          NOTARY_TEAM_ID: ${{ secrets.NOTARY_TEAM_ID }}
+          NOTARY_PASSWORD: ${{ secrets.NOTARY_PASSWORD }}
+        run: Scripts/notarize.sh "dist/SplitDNSManager-$VERSION.dmg"
+
+      - name: Write the checksums
+        working-directory: dist
+        run: shasum -a 256 -- *.dmg *.zip | tee SHA256SUMS
+
+      - name: Summarize
+        run: |
+          if [ "$CAN_NOTARIZE" = "true" ]; then
+            trust="Signed with a Developer ID certificate and notarized."
+          elif [ "$CAN_SIGN" = "true" ]; then
+            trust="Signed with a Developer ID certificate but **not** notarized."
+          else
+            trust="Signed ad hoc: Gatekeeper blocks it until it is approved by hand (see the README)."
+          fi
+          {
+            echo "### SplitDNS Manager $VERSION"
+            echo
+            echo "$trust"
+            echo
+            echo "| SHA-256 | File |"
+            echo "| --- | --- |"
+            awk '{ print "| `" $1 "` | " $2 " |" }' dist/SHA256SUMS
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload the artifacts
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: SplitDNSManager
+          path: |
+            dist/*.dmg
+            dist/*.zip
+            dist/SHA256SUMS
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Delete the temporary keychain
+        if: always() && env.SIGNING_KEYCHAIN != ''
+        run: security delete-keychain "$SIGNING_KEYCHAIN"

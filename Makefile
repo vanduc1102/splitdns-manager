@@ -24,7 +24,7 @@ test: ## Run the unit tests
 
 lint: ## Check Swift formatting and shell scripts
 	swift format lint --strict -r $(SWIFT_SOURCES)
-	@if command -v shellcheck >/dev/null; then shellcheck Scripts/*.sh; else echo "shellcheck not installed, skipping the script check"; fi
+	@if command -v shellcheck >/dev/null; then shellcheck --severity=style Scripts/*.sh; else echo "shellcheck not installed, skipping the script check"; fi
 
 format: ## Format the Swift sources in place
 	swift format -i -r $(SWIFT_SOURCES)

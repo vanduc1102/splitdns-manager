@@ -47,7 +47,9 @@ fi
 
 echo "==> Creating $archive"
 rm -f "$archive"
-ditto -c -k --keepParent "$app" "$archive"
+# --norsrc also drops extended attributes (e.g. com.apple.provenance), which would otherwise become
+# stray ._* entries for extractors other than Archive Utility. The signature lives in _CodeSignature.
+ditto -c -k --keepParent --norsrc --noqtn "$app" "$archive"
 
 echo "==> Created:"
 ls -lh "$dmg" "$archive"
