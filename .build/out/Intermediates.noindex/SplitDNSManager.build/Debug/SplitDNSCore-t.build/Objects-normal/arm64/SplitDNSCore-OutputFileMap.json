@@ -1,0 +1,159 @@
+{
+  "" : {
+    "diagnostics" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/SplitDNSCore-primary.dia",
+    "emit-module-dependencies" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/SplitDNSCore-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/SplitDNSCore-primary-emit-module.dia",
+    "pch" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/SplitDNSCore-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/SplitDNSCore-primary.swiftdeps"
+  },
+  "/Users/ducnguyen/Workspace/personal/splitdns-manager/Sources/SplitDNSCore/CommandRunner.swift" : {
+    "const-values" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/CommandRunner.swiftconstvalues",
+    "dependencies" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/CommandRunner.d",
+    "diagnostics" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/CommandRunner.dia",
+    "index-unit-output-path" : "/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/CommandRunner.o",
+    "llvm-bc" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/CommandRunner.bc",
+    "object" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/CommandRunner.o",
+    "swift-dependencies" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/CommandRunner.swiftdeps",
+    "swiftmodule" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/CommandRunner~partial.swiftmodule"
+  },
+  "/Users/ducnguyen/Workspace/personal/splitdns-manager/Sources/SplitDNSCore/DomainName.swift" : {
+    "const-values" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/DomainName.swiftconstvalues",
+    "dependencies" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/DomainName.d",
+    "diagnostics" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/DomainName.dia",
+    "index-unit-output-path" : "/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/DomainName.o",
+    "llvm-bc" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/DomainName.bc",
+    "object" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/DomainName.o",
+    "swift-dependencies" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/DomainName.swiftdeps",
+    "swiftmodule" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/DomainName~partial.swiftmodule"
+  },
+  "/Users/ducnguyen/Workspace/personal/splitdns-manager/Sources/SplitDNSCore/NameserverAddress.swift" : {
+    "const-values" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/NameserverAddress.swiftconstvalues",
+    "dependencies" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/NameserverAddress.d",
+    "diagnostics" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/NameserverAddress.dia",
+    "index-unit-output-path" : "/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/NameserverAddress.o",
+    "llvm-bc" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/NameserverAddress.bc",
+    "object" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/NameserverAddress.o",
+    "swift-dependencies" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/NameserverAddress.swiftdeps",
+    "swiftmodule" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/NameserverAddress~partial.swiftmodule"
+  },
+  "/Users/ducnguyen/Workspace/personal/splitdns-manager/Sources/SplitDNSCore/PrivilegedScriptRunner.swift" : {
+    "const-values" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/PrivilegedScriptRunner.swiftconstvalues",
+    "dependencies" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/PrivilegedScriptRunner.d",
+    "diagnostics" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/PrivilegedScriptRunner.dia",
+    "index-unit-output-path" : "/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/PrivilegedScriptRunner.o",
+    "llvm-bc" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/PrivilegedScriptRunner.bc",
+    "object" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/PrivilegedScriptRunner.o",
+    "swift-dependencies" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/PrivilegedScriptRunner.swiftdeps",
+    "swiftmodule" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/PrivilegedScriptRunner~partial.swiftmodule"
+  },
+  "/Users/ducnguyen/Workspace/personal/splitdns-manager/Sources/SplitDNSCore/ResolverConfiguration.swift" : {
+    "const-values" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverConfiguration.swiftconstvalues",
+    "dependencies" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverConfiguration.d",
+    "diagnostics" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverConfiguration.dia",
+    "index-unit-output-path" : "/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverConfiguration.o",
+    "llvm-bc" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverConfiguration.bc",
+    "object" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverConfiguration.o",
+    "swift-dependencies" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverConfiguration.swiftdeps",
+    "swiftmodule" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverConfiguration~partial.swiftmodule"
+  },
+  "/Users/ducnguyen/Workspace/personal/splitdns-manager/Sources/SplitDNSCore/ResolverDraft.swift" : {
+    "const-values" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverDraft.swiftconstvalues",
+    "dependencies" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverDraft.d",
+    "diagnostics" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverDraft.dia",
+    "index-unit-output-path" : "/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverDraft.o",
+    "llvm-bc" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverDraft.bc",
+    "object" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverDraft.o",
+    "swift-dependencies" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverDraft.swiftdeps",
+    "swiftmodule" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverDraft~partial.swiftmodule"
+  },
+  "/Users/ducnguyen/Workspace/personal/splitdns-manager/Sources/SplitDNSCore/ResolverEntry.swift" : {
+    "const-values" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverEntry.swiftconstvalues",
+    "dependencies" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverEntry.d",
+    "diagnostics" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverEntry.dia",
+    "index-unit-output-path" : "/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverEntry.o",
+    "llvm-bc" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverEntry.bc",
+    "object" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverEntry.o",
+    "swift-dependencies" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverEntry.swiftdeps",
+    "swiftmodule" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverEntry~partial.swiftmodule"
+  },
+  "/Users/ducnguyen/Workspace/personal/splitdns-manager/Sources/SplitDNSCore/ResolverFileParser.swift" : {
+    "const-values" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverFileParser.swiftconstvalues",
+    "dependencies" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverFileParser.d",
+    "diagnostics" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverFileParser.dia",
+    "index-unit-output-path" : "/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverFileParser.o",
+    "llvm-bc" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverFileParser.bc",
+    "object" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverFileParser.o",
+    "swift-dependencies" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverFileParser.swiftdeps",
+    "swiftmodule" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverFileParser~partial.swiftmodule"
+  },
+  "/Users/ducnguyen/Workspace/personal/splitdns-manager/Sources/SplitDNSCore/ResolverScriptBuilder.swift" : {
+    "const-values" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverScriptBuilder.swiftconstvalues",
+    "dependencies" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverScriptBuilder.d",
+    "diagnostics" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverScriptBuilder.dia",
+    "index-unit-output-path" : "/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverScriptBuilder.o",
+    "llvm-bc" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverScriptBuilder.bc",
+    "object" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverScriptBuilder.o",
+    "swift-dependencies" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverScriptBuilder.swiftdeps",
+    "swiftmodule" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverScriptBuilder~partial.swiftmodule"
+  },
+  "/Users/ducnguyen/Workspace/personal/splitdns-manager/Sources/SplitDNSCore/ResolverStatus.swift" : {
+    "const-values" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverStatus.swiftconstvalues",
+    "dependencies" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverStatus.d",
+    "diagnostics" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverStatus.dia",
+    "index-unit-output-path" : "/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverStatus.o",
+    "llvm-bc" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverStatus.bc",
+    "object" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverStatus.o",
+    "swift-dependencies" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverStatus.swiftdeps",
+    "swiftmodule" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverStatus~partial.swiftmodule"
+  },
+  "/Users/ducnguyen/Workspace/personal/splitdns-manager/Sources/SplitDNSCore/ResolverStore.swift" : {
+    "const-values" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverStore.swiftconstvalues",
+    "dependencies" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverStore.d",
+    "diagnostics" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverStore.dia",
+    "index-unit-output-path" : "/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverStore.o",
+    "llvm-bc" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverStore.bc",
+    "object" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverStore.o",
+    "swift-dependencies" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverStore.swiftdeps",
+    "swiftmodule" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverStore~partial.swiftmodule"
+  },
+  "/Users/ducnguyen/Workspace/personal/splitdns-manager/Sources/SplitDNSCore/ResolverValidationError.swift" : {
+    "const-values" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverValidationError.swiftconstvalues",
+    "dependencies" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverValidationError.d",
+    "diagnostics" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverValidationError.dia",
+    "index-unit-output-path" : "/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverValidationError.o",
+    "llvm-bc" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverValidationError.bc",
+    "object" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverValidationError.o",
+    "swift-dependencies" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverValidationError.swiftdeps",
+    "swiftmodule" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolverValidationError~partial.swiftmodule"
+  },
+  "/Users/ducnguyen/Workspace/personal/splitdns-manager/Sources/SplitDNSCore/ResolversViewModel.swift" : {
+    "const-values" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolversViewModel.swiftconstvalues",
+    "dependencies" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolversViewModel.d",
+    "diagnostics" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolversViewModel.dia",
+    "index-unit-output-path" : "/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolversViewModel.o",
+    "llvm-bc" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolversViewModel.bc",
+    "object" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolversViewModel.o",
+    "swift-dependencies" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolversViewModel.swiftdeps",
+    "swiftmodule" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ResolversViewModel~partial.swiftmodule"
+  },
+  "/Users/ducnguyen/Workspace/personal/splitdns-manager/Sources/SplitDNSCore/ShellQuoting.swift" : {
+    "const-values" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ShellQuoting.swiftconstvalues",
+    "dependencies" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ShellQuoting.d",
+    "diagnostics" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ShellQuoting.dia",
+    "index-unit-output-path" : "/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ShellQuoting.o",
+    "llvm-bc" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ShellQuoting.bc",
+    "object" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ShellQuoting.o",
+    "swift-dependencies" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ShellQuoting.swiftdeps",
+    "swiftmodule" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/ShellQuoting~partial.swiftmodule"
+  },
+  "/Users/ducnguyen/Workspace/personal/splitdns-manager/Sources/SplitDNSCore/SystemDNS.swift" : {
+    "const-values" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/SystemDNS.swiftconstvalues",
+    "dependencies" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/SystemDNS.d",
+    "diagnostics" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/SystemDNS.dia",
+    "index-unit-output-path" : "/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/SystemDNS.o",
+    "llvm-bc" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/SystemDNS.bc",
+    "object" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/SystemDNS.o",
+    "swift-dependencies" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/SystemDNS.swiftdeps",
+    "swiftmodule" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Debug/SplitDNSCore-t.build/Objects-normal/arm64/SystemDNS~partial.swiftmodule"
+  }
+}

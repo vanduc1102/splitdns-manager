@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/arm64-apple-macosx/debug/SplitDNSManagerPackageTests.build/primary.swiftdeps"
+  },
+  "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/arm64-apple-macosx/debug/SplitDNSManagerPackageTests.derived/runner.swift": {
+    "dependencies": "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/arm64-apple-macosx/debug/SplitDNSManagerPackageTests.build/runner.d",
+    "object": "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/arm64-apple-macosx/debug/SplitDNSManagerPackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/arm64-apple-macosx/debug/SplitDNSManagerPackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/arm64-apple-macosx/debug/SplitDNSManagerPackageTests.build/runner.swiftdeps",
+    "diagnostics": "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/arm64-apple-macosx/debug/SplitDNSManagerPackageTests.build/runner.dia"  }
+}

@@ -1,0 +1,11 @@
+{
+  "/Users/ducnguyen/Workspace/personal/splitdns-manager/Sources/SplitDNSManager/ContentView.swift" : {
+    "abi-baseline-json" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Release/SplitDNSManager-p.build/Objects-normal/x86_64/SplitDNSManager.abi.json",
+    "const-values" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Release/SplitDNSManager-p.build/Objects-normal/x86_64/SplitDNSManager-primary.swiftconstvalues",
+    "dependencies" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Release/SplitDNSManager-p.build/Objects-normal/x86_64/SplitDNSManager-primary.d",
+    "diagnostics" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Release/SplitDNSManager-p.build/Objects-normal/x86_64/SplitDNSManager-primary.dia",
+    "swiftdoc" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Release/SplitDNSManager-p.build/Objects-normal/x86_64/SplitDNSManager.swiftdoc",
+    "swiftmodule" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Release/SplitDNSManager-p.build/Objects-normal/x86_64/SplitDNSManager.swiftmodule",
+    "swiftsourceinfo" : "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/out/Intermediates.noindex/SplitDNSManager.build/Release/SplitDNSManager-p.build/Objects-normal/x86_64/SplitDNSManager.swiftsourceinfo"
+  }
+}

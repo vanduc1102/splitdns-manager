@@ -1,0 +1,332 @@
+[
+  {
+    "isFramework" : true,
+    "moduleName" : "Combine",
+    "modulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/Combine-MU4ZADZ3Y0WF.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "CoreFoundation",
+    "modulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/CoreFoundation-2W7MH68453LJ7.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "Darwin",
+    "modulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/Darwin-38DI4R7H7OEWH.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "Dispatch",
+    "modulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/Dispatch-368RZU0K57MUK.swiftmodule"
+  },
+  {
+    "isFramework" : true,
+    "moduleName" : "Foundation",
+    "modulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/Foundation-BY352YAE8Z77.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "IOKit",
+    "modulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/IOKit-22SM04GOL4D0T.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "ObjectiveC",
+    "modulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/ObjectiveC-31IBNRNLFH8HY.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "Observation",
+    "modulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/Observation-3GV2TZ54PZHKH.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "Swift",
+    "modulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/Swift-1SCVLHDW9SN73.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "System",
+    "modulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/System-1QPTQO3X145QT.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "XPC",
+    "modulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/XPC-3ITVIMOQ059HU.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "_Builtin_float",
+    "modulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_float-322D4QEK6NWB6.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "_Concurrency",
+    "modulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/_Concurrency-3H6AG82U5975I.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "_DarwinFoundation1",
+    "modulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/_DarwinFoundation1-2FZSBBRKBB00K.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "_DarwinFoundation2",
+    "modulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/_DarwinFoundation2-1SNO1YWLLO7SL.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "_DarwinFoundation3",
+    "modulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/_DarwinFoundation3-1D55H9HAYDSW0.swiftmodule"
+  },
+  {
+    "isFramework" : false,
+    "moduleName" : "_StringProcessing",
+    "modulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/_StringProcessing-1U9BYPZ7WVWDJ.swiftmodule"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.2.sdk\/System\/Library\/Frameworks\/CFNetwork.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/CFNetwork-BGYZKAY2J693TB68DH4Q10RFY.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "CFNetwork"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.2.sdk\/System\/Library\/Frameworks\/CoreFoundation.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/CoreFoundation-9WY4RBZBOYGBWN7E9CYL0TXQ0.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "CoreFoundation"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.2.sdk\/System\/Library\/Frameworks\/CoreServices.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/CoreServices-A3PEVLWLHW2SEFDJLDQAI9JCI.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "CoreServices"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.2.sdk\/usr\/include\/Darwin.modulemap",
+    "clangModulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/Darwin-5C32FYK71463AP6HABX1RACHF.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "Darwin"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.2.sdk\/System\/Library\/Frameworks\/DiskArbitration.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/DiskArbitration-7GCKJRGQLTEK7J20K9PO6HQKZ.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "DiskArbitration"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.2.sdk\/usr\/include\/dispatch.modulemap",
+    "clangModulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/Dispatch-4ILJZCJTVT7ZXN6PBWEOT8Q0E.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "Dispatch"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.2.sdk\/System\/Library\/Frameworks\/Foundation.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/Foundation-5Z2YA2M7HSRLYKI49BUA7ICOE.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "Foundation"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.2.sdk\/System\/Library\/Frameworks\/IOKit.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/IOKit-A0YYAXSQGQOJDZ9P9NSHVZKOY.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "IOKit"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.2.sdk\/usr\/include\/DarwinBasic.modulemap",
+    "clangModulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/MachO-BO3WWVBAH70G1WFN7CCBG3UT9.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "MachO"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.2.sdk\/usr\/include\/ObjectiveC.modulemap",
+    "clangModulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/ObjectiveC-4CDRSTKDURYEJKNZNURQ33OBB.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "ObjectiveC"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.2.sdk\/System\/Library\/Frameworks\/Security.framework\/Modules\/module.modulemap",
+    "clangModulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/Security-5M50K0KYA3G3PHEEA1MQ1A0TX.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "Security"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.2.sdk\/usr\/lib\/swift\/shims\/module.modulemap",
+    "clangModulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/SwiftShims-76Y1EZWKBAVOD9BTG1VJC2DMP.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "SwiftShims"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.2.sdk\/usr\/include\/xpc.modulemap",
+    "clangModulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/XPC-881AZGJBOOC3BCPDNOMUULU0I.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "XPC"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.2.sdk\/usr\/include\/DarwinFoundation1.modulemap",
+    "clangModulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/_AvailabilityInternal-44DKG2W7IOT7P1TQ461N17C8I.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_AvailabilityInternal"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_float-8AZBBYUAAZT9H1QFBFJRB1HEL.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_float"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_intrinsics-F0CCL4IGWHOL4WPT5HK5WBP0M.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_intrinsics"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_inttypes-66G4817QZAR9RPI40T87SSSDS.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_inttypes"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_limits-D1ZTR34VKKKWAORX91VKRK6MC.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_limits"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_stdarg-ARCZK2GHCHET2DRDEIFXH4MAK.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_stdarg"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_stdbool-6DIJDYYL1C2RUZZL47JPLR7IN.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_stdbool"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_stddef-76MK6ZRWFA6L4NH2VL17HD0WD.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_stddef"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_stdint-6TPUMASS2Y38PT3YMP9TOMMMG.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_Builtin_stdint"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.2.sdk\/usr\/include\/DarwinFoundation1.modulemap",
+    "clangModulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/_DarwinFoundation1-615HT9U262JB2Z38O4PSIDDAR.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_DarwinFoundation1"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.2.sdk\/usr\/include\/DarwinFoundation2.modulemap",
+    "clangModulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/_DarwinFoundation2-AWK51TQAJJWGEXUN7115PTCNT.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_DarwinFoundation2"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.2.sdk\/usr\/include\/DarwinFoundation3.modulemap",
+    "clangModulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/_DarwinFoundation3-5CM3CCGQ5KQJTTUX2QVVDLIRH.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_DarwinFoundation3"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.2.sdk\/usr\/lib\/swift\/shims\/module.modulemap",
+    "clangModulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/_SwiftConcurrencyShims-EPMKNS8ACP0KHPWOXCAHQV0U8.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "_SwiftConcurrencyShims"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.2.sdk\/usr\/include\/launch.modulemap",
+    "clangModulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/launch-3WFH4Q3PX7NN7RQNZJMZ9NC0Z.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "launch"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.2.sdk\/usr\/include\/libDER\/module.modulemap",
+    "clangModulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/libDER-2P28TZOMX0KTPWS85SLVKVVWC.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "libDER"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.2.sdk\/usr\/include\/libkern.modulemap",
+    "clangModulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/libkern-AH67J4X7KT2N09V429J6QIGM8.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "libkern"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.2.sdk\/usr\/include\/os.modulemap",
+    "clangModulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/os_object-DHHXBWJ9NOWWAGY2XVJYJR00Z.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "os_object"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.2.sdk\/usr\/include\/os.modulemap",
+    "clangModulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/os_workgroup-E1GK1UWSG4SMBIIETWVOO12LG.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "os_workgroup"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/ptrauth-2LYL7CIJ1GDIOKHI4HBJ0TV6Y.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "ptrauth"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
+    "clangModulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/ptrcheck-A74L7S0AW2V8V93TUY0PWQGFT.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "ptrcheck"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.2.sdk\/usr\/include\/c_standard_library.modulemap",
+    "clangModulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/string_h-E6UIY1IXG56MK2PFITU7XZF16.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "string_h"
+  },
+  {
+    "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.2.sdk\/usr\/include\/DarwinFoundation2.modulemap",
+    "clangModulePath" : "\/Users\/ducnguyen\/Workspace\/personal\/splitdns-manager\/.build\/out\/SDKExplicitPrecompiledModules\/sys_types-HTREXZ4O0G93Z204QRAOQ58G.pcm",
+    "isBridgingHeaderDependency" : false,
+    "isFramework" : false,
+    "moduleName" : "sys_types"
+  }
+]

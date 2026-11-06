@@ -1,0 +1,3 @@
+module SplitDNSCore {
+    header "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/arm64-apple-macosx/debug/SplitDNSCore.build/include/SplitDNSCore-Swift.h"
+}

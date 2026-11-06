@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/arm64-apple-macosx/debug/SplitDNSCore.build/primary.swiftdeps"
+  },
+  "/Users/ducnguyen/Workspace/personal/splitdns-manager/Sources/SplitDNSCore/Placeholder.swift": {
+    "dependencies": "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/arm64-apple-macosx/debug/SplitDNSCore.build/Placeholder.d",
+    "object": "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/arm64-apple-macosx/debug/SplitDNSCore.build/Placeholder.swift.o",
+    "swiftmodule": "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/arm64-apple-macosx/debug/SplitDNSCore.build/Placeholder~partial.swiftmodule",
+    "swift-dependencies": "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/arm64-apple-macosx/debug/SplitDNSCore.build/Placeholder.swiftdeps",
+    "diagnostics": "/Users/ducnguyen/Workspace/personal/splitdns-manager/.build/arm64-apple-macosx/debug/SplitDNSCore.build/Placeholder.dia"  }
+}
