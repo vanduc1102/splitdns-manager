@@ -67,7 +67,7 @@ Development notes:
 | --- | --- | --- |
 | [Verify PR](.github/workflows/pull-request.yml) | pull requests to `main` | `swift format` lint, shellcheck and actionlint, then the build below, without any secrets |
 | [Build](.github/workflows/build.yml) | pushes to `main`, manual runs, and reused by the other two | runs the tests, builds the universal app, `.dmg`, `.zip` and `SHA256SUMS`, and uploads them as the `SplitDNSManager` artifact for 14 days |
-| [Release](.github/workflows/release.yml) | tags `v*.*.*` | the build with signing and notarization, then creates the GitHub release |
+| [Release](.github/workflows/release.yml) | tags `v*.*.*` | the build with signing and notarization, then creates the GitHub release, or attaches the files to it if it already exists |
 
 Third-party actions are pinned to commit SHAs and updated weekly by Dependabot. Each job that needs macOS uses the `macos-26` runner.
 
@@ -78,7 +78,7 @@ git tag v1.2.3
 git push origin v1.2.3
 ```
 
-The release gets the `.dmg`, the `.zip`, `SHA256SUMS` and generated notes. A tag with a suffix, such as `v1.2.3-rc.1`, is marked as a pre-release. To try the signing pipeline without a release, run **Build** from the Actions tab with a `version` and **release** ticked.
+The release gets the `.dmg`, the `.zip`, `SHA256SUMS` and generated notes. A tag with a suffix, such as `v1.2.3-rc.1`, is marked as a pre-release. You can also publish a release from the GitHub **Releases** page with a new `v1.2.3` tag. The workflow then keeps your title and notes and attaches the files when the build finishes. To try the signing pipeline without a release, run **Build** from the Actions tab with a `version` and **release** ticked.
 
 ### Signing and notarization
 

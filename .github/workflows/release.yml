@@ -57,9 +57,16 @@ jobs:
           name: SplitDNSManager
           path: dist
 
-      - name: Create the GitHub release
+      - name: Publish the GitHub release
         run: |
           set -euo pipefail
+          # Publishing a release from the GitHub UI creates the tag, which starts this workflow
+          # after the release already exists, so attach the assets to it instead of failing.
+          if gh release view "$TAG" --json tagName >/dev/null 2>&1; then
+            echo "The release $TAG already exists, so its title and notes are kept and the assets are replaced."
+            gh release upload "$TAG" dist/* --clobber
+            exit 0
+          fi
           prerelease=()
           if [[ "$VERSION" == *-* ]]; then
             prerelease=(--prerelease)
